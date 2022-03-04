@@ -1,0 +1,74 @@
+.Cards1{
+    display: flex;
+    margin-left: 4rem;
+}
+
+.Card{
+    padding: 10px;
+    margin: 3rem;
+    margin-top: 1rem;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Button{
+    position: absolute;
+    bottom: 5px;
+    left: 1.5rem;
+}
+
+h2{
+    margin-left: 1.1rem;
+}
+
+p{
+    margin-left: 1.1rem;
+}
+
+.cardButton button{
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-style: none;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #e3ebfc;
+}
+
+.cardButton .dot{
+    width: 12px;
+    height: 12px;
+    background-color: #739af0;
+    border-radius: 50%;
+}
+
+.cardButton2 button{
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-style: none;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #fef2cd;
+}
+
+.cardButton2 .dot2{
+    width: 12px;
+    height: 12px;
+    background-color: #fbbc04;
+    border-radius: 50%;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    border-style: none;
+    border-radius: 1rem;
+}

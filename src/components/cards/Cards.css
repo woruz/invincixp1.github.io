@@ -1,0 +1,9 @@
+.card{
+    display: flex;
+    margin-left: 7rem;
+}
+
+.cardOnly{
+    width: 40vw;
+    height: 30vh;
+}

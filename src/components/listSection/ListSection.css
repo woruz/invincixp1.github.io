@@ -1,0 +1,63 @@
+fluent-card {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 77vw;
+    margin-left: 7rem;
+  }
+
+  fluent-card > .left{
+    display: flex;
+    gap: 15px;
+  }
+
+  fluent-card > .left > .dob{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fluent-card > fluent-button {
+    align-self: flex-end;
+  }
+
+  .event button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border-style: none;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #e3ebfc;
+}
+
+.left .dob{
+    background-color: #f1f8f9;
+    width: 40px;
+}
+
+.ListSectionCard{
+  margin-bottom: 1rem;
+}
+
+#Birthday{
+  background-color: #e3ebfc;
+}
+
+#Event{
+  background-color: #fef2cd;
+}
+
+.Birthday{
+  width: 12px;
+  height: 12px;
+  background-color: #739af0;
+  border-radius: 50%;
+}
+
+.Event{
+  width: 12px;
+  height: 12px;
+  background-color: #fbbc04;
+  border-radius: 50%;
+}

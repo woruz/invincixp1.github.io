@@ -1,0 +1,6 @@
+.MiddleSection{
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+}
